@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+a<!DOCTYPE html>
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
@@ -20,33 +20,34 @@
     </header>
     <main>
       <section>
-        <article>
-          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button">Zamów usługę</button>
-        </article>
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button">Zamów usługę</button>
       </section>
       <section>
-        <ul>
-          <li>
-            LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
-          </li>
-          <li>
-            LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
-          </li>
-          <li>
-            LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
-          </li>
-          <li>
-            LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
-          </li>
-        </ul>
+        <!--Skoro ten element występuje 4x w niezmienionej wersji, można zrobić jako listę z elementami <h2> i <p>?-->
+        <h2>LOREM IPSUM</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+          sem. Sed non sodales dui. Interdum et malesuada
+        </p>
+        <h2>LOREM IPSUM</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+          sem. Sed non sodales dui. Interdum et malesuada
+        </p>
+        <h2>LOREM IPSUM</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+          sem. Sed non sodales dui. Interdum et malesuada
+        </p>
+        <h2>LOREM IPSUM</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+          sem. Sed non sodales dui. Interdum et malesuada
+        </p>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h3>Czym się zajmujemy</h3>
         <ul>
           <li>
             <img
@@ -75,7 +76,7 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
+        <h3>Nasz zespół</h3>
         <ul>
           <li>
             <img
@@ -83,7 +84,9 @@
               alt="Facet w brązowej koszuli"
               width="270"
               height="260"
-            />John Doe Product Designer
+            />
+            <p>John Doe</p>
+            <p>Product Designer</p>
           </li>
           <li>
             <img
@@ -91,7 +94,9 @@
               alt="Blondynka"
               width="270"
               height="260"
-            />John Doe Frontend Developer
+            />
+            <p>John Doe</p>
+            <p>Frontend Developer</p>
           </li>
           <li>
             <img
@@ -99,7 +104,9 @@
               alt="Facet w niebieskiej koszuli"
               width="270"
               height="260"
-            />John Doe Marketing
+            />
+            <p>John Doe</p>
+            <p>Marketing</p>
           </li>
           <li>
             <img
@@ -107,15 +114,19 @@
               alt="Facet w czarnej koszulce"
               width="270"
               height="260"
-            />John Doe UI Designer
+            />
+            <p>John Doe</p>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      WebStudio
+      <p>WebStudio</p>
       <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      info@example.com +48 111 111 111
+      <!--Wstawiłem informacje kontaktowe jako linki, jeśli mają być paragrafy to poprawię -->
+      <a href="mailto:info@example.com">>info@example.com</a>
+      <a href="tel:+48111111111">+48 111 111 111</a>
     </footer>
   </body>
 </html>
